@@ -1,0 +1,136 @@
+.body{
+    background-color: rgb(226 226 226);
+}
+.divgene{
+    margin-left: 12%;
+    margin-right: 12%;
+    
+}
+
+
+.imagH{
+    height: 60px;
+    padding: 5px;
+}
+.headiv{
+    
+    border-radius: 5px;
+    background-color:  #0e4a71de;
+    height: 60px;
+    display: flex;
+    
+    
+}
+.title-head{
+    display: flex;
+    flex: none;
+    align-items: center;
+    padding-left: 5px;
+    color: white;
+    font-family: cursive;
+}
+.nav-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+.nav-div nav a{
+    padding: 5px;
+    color: rgb(255, 255, 255);
+}
+.header-content {
+    display: flex;
+    flex-direction: row;
+    padding-left: 322px;
+    align-items: center;
+
+    background-image: url('../recourse/prueba_3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    }
+.header-title {
+    background-color:white;
+    width: 416px !important;
+    border: 2px solid #382d1e;
+    border-radius: 15px;
+    box-shadow: 3px 2px 8px 5px rgb(125 125 125 / 69%);
+    padding-left: 5;
+}
+
+.panel-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.panel-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel-img img {
+    width: 80%;
+}
+
+.panel-description-conetent {
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.panel-title {
+    color: rgb(179, 162, 17);
+    font-size: 26px;
+    font-family: Arial;
+}
+
+.panel-text {
+    color: rgb(2, 2, 2);
+    font-family: Arial;
+}
+.panel-voleibol {
+    background-color: #a7a7a78f;;
+    flex-direction: row-reverse;
+}
+.panel-historia {
+    background-color: #a7a7a7;
+
+}
+.card{
+    background-color: #f9f2b7;
+    border: 1px solid rgb(0 0 0);
+}
+.btn-primary{
+    background-color:rgb(58 40 80);
+    color: white;
+    border: black 2px solid;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #94b4ce;
+    height: 100px;
+    margin-top: 50px;
+}
+
+footer label {
+    width: 150px;
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
