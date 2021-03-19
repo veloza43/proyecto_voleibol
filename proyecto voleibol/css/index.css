@@ -11,6 +11,14 @@
 .imagH{
     height: 60px;
     padding: 5px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagH img{
+    width: 39px;
+    border-radius: 13px;
 }
 .headiv{
     
@@ -18,7 +26,9 @@
     background-color:  #0e4a71de;
     height: 60px;
     display: flex;
-    
+    position: fixed;
+    z-index: 100;
+    width: 76%;
     
 }
 .title-head{
@@ -126,11 +136,10 @@ footer {
     height: 100px;
     margin-top: 50px;
 }
-
-footer label {
-    width: 150px;
-    text-align: center;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
+.btn-H{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    background-image: url(../recourse/footerrr.jpeg);
 }
